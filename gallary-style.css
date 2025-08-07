@@ -5,13 +5,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f2fefc; /* Dark background */
-    color: #150e0e; /* Light text color */
+    background-color: #f2fefc; 
+    color: #150e0e; 
 }
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     overflow: hidden;
     padding: 0 10px;
@@ -19,7 +19,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background: #fcffff; /* Slightly lighter dark shade for header */
+    background: #fcffff; 
     color: #2082b7;
     padding: 20px 0;
     border-bottom: 3px solid #e2eef2;
@@ -99,7 +99,7 @@ h2 {
     filter: brightness(1.1);
 }
 
-/* You may want to adjust these span values now that the images are wider */
+
 .photo-grid a:nth-child(1) .grid-image { grid-row-end: span 18; }
 .photo-grid a:nth-child(2) .grid-image { grid-row-end: span 28; }
 .photo-grid a:nth-child(3) .grid-image { grid-row-end: span 20; }
@@ -142,7 +142,7 @@ h2 {
 .photo-grid a:nth-child(40) .grid-image { grid-row-end: span 32; }
 
 
-/* --- CSS-ONLY LIGHTBOX STYLES --- */
+/*  LIGHTBOX STYLES */
 
 .lightbox {
     display: none; /* Hidden by default */
